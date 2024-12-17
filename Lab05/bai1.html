@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style1.css">
+    <title>LAB 05</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Wed Design is Awesome !!!</h1>
+        <nav>
+            <a href="#">FPT University Program</a>
+            <a href="#">Start learning on Coursera!</a>
+        </nav>
+    </div>
+    <div class="content">
+        <div id="left">
+            <h1>About this Specialization</h1>
+            <p id="para1">This Specialization covers how to write syntactically correct HTML5 and CSS3, and how to create interactive web experiences with JavaScript.
+                Mastering this range of technologies will allow you to develop high quality web sites that, work seamlessly on mobile, tablet, and large screen browsers accessible. 
+                During the capstone you will develop a professional-quality web portfolio demonstrating your growth as a web developer
+            </p>
+            <p id="para2">Your knowledge of accessible web design. This will include your ability to design and
+                implement a responsive site that utilizes tools to create a site that is accessible to a wide audience,
+                including those with visual, audial, physical,
+                and cognitive impairments.
+            </p>
+            <p id="para3" onclick="show()" style="cursor: pointer;">SHOW ALL</p>
+        </div>
+        <div id="right">
+            <h1>Your Information to enroll for free</h1>
+            <form>
+                <table>
+                    <tr>
+                        <td>Full name</td>
+                        <td><input type="text" id="t1">*</td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="text" id="t2">*</td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" id="t3">*</td>
+                    </tr>
+                    <tr>
+                        <td>Repassword</td>
+                        <td><input type="password" id="t4">*</td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" id="t3" value="Enroll" onclick="Enroll()"></td>
+                    </tr>
+                </table>
+                <p>
+                    Options: <br><input type="checkbox" id="t5">ask questions for help <br>
+                    <input type="checkbox" id="t6">Discuss subjects you're studying <br>
+                    <input type="checkbox" id="t7">Meet learnts around the world
+                </p>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Sponsored by FPT University</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
